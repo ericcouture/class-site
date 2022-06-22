@@ -1,0 +1,86 @@
+body {
+    background-color: antiquewhite;
+}
+
+/*
+body:hover {
+    filter: blur(0px);
+}
+*/
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+a {
+    color: coral;
+    cursor: crosshair;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: lightcoral;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: lightcoral;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+#left{
+    width: 50vw;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+#right{
+    width: 50vw;
+    height: 100vw;
+    right: 0;
+    position: fixed;
+    overflow: scroll;
+}
+
+#imgbox {
+    position: relative;
+    overflow: scroll;
+}
+
+#name {
+    border: 2px dashed green;
+    padding: 3px;
+    color: green;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+}
+
+#name:hover {
+    font-style: normal;
+    transform: rotate(-5deg);
+}
+
+.caption {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.aboutMe:hover {
+    font-style: italic;
+}
+
+.listHeader {
+    font-style: italic;
+    font-weight: bold;
+}
