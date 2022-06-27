@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.content {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px dashed red;
+    margin: 50px;
+}
+
+.border {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px dotted navy;
+    margin: 50px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 30px;
+    right: 90px;
+    
+}
