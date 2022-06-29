@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: darkslategrey;
+    transition: 1s;
+
+/*
+    animation-name: turn-red;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+*/
+    
+}
+
+.circle:hover {
+   background: coral;
+}
+
+.other-circles {
+    background-color: darkslategrey;
+    position: absolute;
+    top: 0;
+    left: -10vw;
+    top: -10vh;
+    width: 120vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+@keyframes turn-red {
+    from {background-color: darkslategrey;}
+    to {background-color: coral;}
+}

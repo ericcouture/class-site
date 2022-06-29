@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.back-to-home {
+    display: flex;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    height: 40px;
+    width: 100px;
+    border-style: hidden;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    background: slategrey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+}
+
+.circle {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: tomato;
+    animation: background-change 4s linear 1s infinite alternate, breathe 5s ease 0s infinite alternate;
+    
+}
+
+.square {
+    height: 500px;
+    width: 500px;
+    background-color: tomato;
+    animation: rotate 5s linear 0s infinite normal, background-change 4s linear 0s infinite alternate;
+}
+
+@keyframes background-change {
+    from {background-color: tomato;}
+    to {background-color: aqua;}
+}
+
+@keyframes rotate {
+    from {transform:rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes breathe {
+    from {transform:scale(75%);}
+    to {transform:scale(125%);}
+}
+/*
+.bottom {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: white;
+}
+*/
+
+.slider {
+    position: absolute;
+    bottom: 0;
+    height: 6%;
+    width: 200px;
+    background: cornflowerblue;
+    animation: slide 2s linear 0s infinite normal;
+}
+
+@keyframes slide {
+    from{transform: translate(-10vw, 0vh);}
+    to{transform: translate(100vw, 0vh);}
+}
