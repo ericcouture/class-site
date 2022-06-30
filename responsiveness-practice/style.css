@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: gainsboro;
+}
+
+h1 {
+    color: darkolivegreen;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: darkseagreen;
+    }
+    
+    h1 {
+        color: darkslateblue;
+    }
+}

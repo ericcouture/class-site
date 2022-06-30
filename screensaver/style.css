@@ -20,7 +20,7 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-color: darkslategrey;
+    background-color: coral;
     transition: 1s;
 
 /*
@@ -55,3 +55,56 @@ body {
     from {background-color: darkslategrey;}
     to {background-color: coral;}
 }
+
+.r1 {
+    animation: turn-red 2s 1s infinite alternate;
+}
+
+.r2 {
+    animation: turn-red 2s 2s infinite alternate;
+}
+
+.r3 {
+    animation: turn-red 2s 3s infinite alternate;
+}
+
+.r4 {
+    animation: turn-red 2s 4s infinite alternate;
+}
+
+.r5 {
+    animation: turn-red 2s 5s infinite alternate;
+}
+
+.r6 {
+    animation: turn-red 2s 6s infinite alternate;
+}
+
+.r7 {
+    animation: turn-red 2s 7s infinite alternate;
+}
+
+.r8 {
+    animation: turn-red 2s 8s infinite alternate;
+}
+
+/* column animations */
+.c1 {
+    animation: turn-red 2s 9s infinite alternate;
+}
+
+.c2 {
+    animation: turn-red 2s 10s infinite alternate;
+}
+
+.c3 {
+    animation: turn-red 2s 11s infinite alternate;
+}
+
+.c4 {
+    animation: turn-red 2s 12s infinite alternate;
+}
+
+}
+
+
