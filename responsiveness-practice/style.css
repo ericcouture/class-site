@@ -3,19 +3,72 @@
 }
 
 body {
+    background: darkolivegreen;
+    margin: 0;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
     background: gainsboro;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-h1 {
-    color: darkolivegreen;
+.contents {
+    display: flex;
+    align-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
-@media screen and (min-width: 900px) {
+.contents div {
+    padding: 10px;
+}
+
+.nav {
+    background: gainsboro;
+    width: 25%;
+}
+
+.center {
+    background: gainsboro;
+    width: 50%;
+}
+
+.right {
+    background: gainsboro;
+    width: 25%;
+}
+
+.footer {
+    background: gainsboro;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
     body {
         background-color: darkseagreen;
     }
     
-    h1 {
-        color: darkslateblue;
+    .contents {
+        flex-direction: column;
     }
+    
+    .nav, .center, .right {
+        width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: dimgrey;
+    }
+    
+
 }
