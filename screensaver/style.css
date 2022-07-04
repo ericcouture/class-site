@@ -5,7 +5,10 @@
 body {
     margin: 0;
     overflow: hidden;
+    background: darkslategray;
+    cursor: none;
 }
+
 
 .container {
     background-color: darkslategray;
@@ -20,8 +23,8 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-color: coral;
     transition: 1s;
+}
 
 /*
     animation-name: turn-red;
@@ -37,7 +40,7 @@ body {
 }
 
 .other-circles {
-    background-color: darkslategrey;
+    background-color: darkslategray;
     position: absolute;
     top: 0;
     left: -10vw;
@@ -49,62 +52,113 @@ body {
     align-items: center;
     align-content: flex-start;
     flex-wrap: wrap;
+    cursor: none;
 }
 
 @keyframes turn-red {
-    from {background-color: darkslategrey;}
+    from {background-color: darkslategray;}
     to {background-color: coral;}
 }
 
 .r1 {
-    animation: turn-red 2s 1s infinite alternate;
+    animation: turn-red 4s 1s infinite alternate;
 }
 
 .r2 {
-    animation: turn-red 2s 2s infinite alternate;
+    animation: turn-red 4s 2s infinite alternate;
 }
 
 .r3 {
-    animation: turn-red 2s 3s infinite alternate;
+    animation: turn-red 4s 3s infinite alternate;
 }
 
 .r4 {
-    animation: turn-red 2s 4s infinite alternate;
+    animation: turn-red 4s 4s infinite alternate;
 }
 
 .r5 {
-    animation: turn-red 2s 5s infinite alternate;
+    animation: turn-red 4s 5s infinite alternate;
 }
 
 .r6 {
-    animation: turn-red 2s 6s infinite alternate;
+    animation: turn-red 4s 6s infinite alternate;
 }
 
 .r7 {
-    animation: turn-red 2s 7s infinite alternate;
+    animation: turn-red 4s 7s infinite alternate;
 }
 
 .r8 {
-    animation: turn-red 2s 8s infinite alternate;
+    animation: turn-red 4s 8s infinite alternate;
 }
 
 /* column animations */
 .c1 {
-    animation: turn-red 2s 9s infinite alternate;
+    animation: turn-red 4s 9s infinite alternate;
 }
 
 .c2 {
-    animation: turn-red 2s 10s infinite alternate;
+    animation: turn-red 4s 10s infinite alternate;
 }
 
 .c3 {
-    animation: turn-red 2s 11s infinite alternate;
+    animation: turn-red 4s 11s infinite alternate;
 }
 
 .c4 {
-    animation: turn-red 2s 12s infinite alternate;
+    animation: turn-red 4s 12s infinite alternate;
 }
 
+.c5 {
+    animation: turn-red 4s 13s infinite alternate;
 }
 
+.c6 {
+    animation: turn-red 4s 15s infinite alternate;
+}
+
+.c7 {
+    animation: turn-red 4s 16s infinite alternate;
+}
+
+.c8 {
+    animation: turn-red 4s 17s infinite alternate;
+}
+
+.c9 {
+    animation: turn-red 4s 18s infinite alternate;
+}
+
+.c10 {
+    animation: turn-red 4s 19s infinite alternate;
+}
+
+.c11 {
+    animation: turn-red 4s 20s infinite alternate;
+}
+
+.c12 {
+    animation: turn-red 4s 21s infinite alternate;
+}
+
+.c13 {
+    animation: turn-red 4s 22s infinite alternate;
+}
+
+.c14 {
+    animation: turn-red 4s 23s infinite alternate;
+}
+
+.c15 {
+    animation: turn-red 4s 24s infinite alternate;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(30);
+}
 
