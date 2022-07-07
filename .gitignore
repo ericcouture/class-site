@@ -1,0 +1,5 @@
+/javascript/._jquery.marquee.min.js
+/javascript/._jquery-3.6.0.min.js
+
+# Ignore Mac system files
+.DS_store
