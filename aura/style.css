@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+img {
+    min-width: 110%;
+}
+
+.ascii-box {
+    animation: appear 2s ease ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    color: antiquewhite;
+    font-size: 20px;
+    opacity: 100%;
+    transition: 1s;
+
+}
+
+.ascii-box:hover {
+    opacity: 0%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+.row1, .row2, .row3{
+    display: flex;
+    justify-content: center;
+    height: 34vh;
+    width: 100vw;
+}
+
+.gif-box {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}

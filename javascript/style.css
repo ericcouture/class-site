@@ -31,3 +31,15 @@ button:hover {
     background: darkgreen;
     cursor: pointer;
 }
+
+.marquee {
+    overflow: hidden;
+    border:1px solid #ccc;
+    font-size: 50px;
+    padding: 25px;
+    background: khaki;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

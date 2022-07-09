@@ -56,7 +56,7 @@ a:hover {
     display: flex;
     background-color: darkseagreen;
     height: 80%;
-    padding:;
+    padding: 0;
     gap: 10px;
     
 }
